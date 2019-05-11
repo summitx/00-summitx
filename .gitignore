@@ -1,0 +1,8 @@
+# Exclude all files except the ones specified
+/*
+
+# .gitignore
+!.gitinore
+
+# README.md
+!README.md
