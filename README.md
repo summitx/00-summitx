@@ -9,6 +9,21 @@ respond to issues and fixes, justifying the need for this organization.
 Useful External Links:
 TODO
 
+## Setup
+This organization will mostly contain ROS packages. As such it is important to
+create a catkin workspace. Here we give instructions for setting this up.
+
+Create a catkin workspace called `summitx_cws` along with its associated `src`
+directory:
+
+    mkdir -p summitx_cws/src
+
+Clone any repos you will be working on inside this folder.
+
+To build the source code of the workspace run the following inside `summitx_cws`:
+
+    catkin build
+
 Index of the entire summitx organization:
 
 - ## [summit_xl_sim](https://github.com/summitx/summit_xl_sim)
