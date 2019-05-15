@@ -23,6 +23,11 @@ Clone any repos you will be working on inside this folder.
 To build the source code of the workspace run the following inside `summitx_cws`:
 
     catkin build
+    
+After building make sure you source your `summitx_cws`:
+
+    source devel/setup.zsh
+Note for convienence you can add the source command to your `.zshrc`.
 
 Index of the entire summitx organization:
 
